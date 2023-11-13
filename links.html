@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personalizando links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: blueviolet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: brown;
+        }
+        a:hover {
+            color: black;
+            text-decoration:underline;
+        }
+        a:active {
+            color: yellow;
+
+        }
+        a::after{
+            content: '[♥]';
+
+        }
+            </style>
+</head>
+<body>
+    <h1>links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=hJKRbskfHnM&list=RDhJKRbskfHnM&start_radio=1" target="_blank">youtube musica 1</a></li>
+        <li><a href="https://youtu.be/nbhIgASOKao" >musica 02</a>
+</li>
+<li><a href="https://youtu.be/dWcrZv5p7Jg" >musica 03</a></li>
+    </ul>
+</body>
+</html>
